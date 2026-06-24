@@ -100,7 +100,7 @@ if calcular:
         Pvdw = R*T/(volumes-b) - a/volumes**2
         Pideal = R*T/volumes
 
-        fig, ax = plt.subplots(figsize=(7,5))
+        fig, ax = plt.subplots(figsize=(5,3.5))
 
         ax.plot(
             volumes,
